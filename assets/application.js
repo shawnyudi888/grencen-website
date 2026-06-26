@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){const cartCount=document.getElementById("cart-count");if(cartCount&&typeof Shopify!=="undefined"){fetch("/cart.js").then(res=>res.json()).then(data=>{cartCount.textContent=data.item_count;}).catch(err=>console.error("Cart error:",err));}});
