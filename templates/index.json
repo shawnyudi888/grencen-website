@@ -1,1 +1,1 @@
-{"sections":{"main":{"type":"featured-collection","settings":{"heading":"Shop All Products"}}},"order":["main"]}
+json { "sections": { "hero": { "type": "hero" }, "trust-badges": { "type": "trust-badges" }, "category-grid": { "type": "category-grid" }, "featured-collection": { "type": "featured-collection" }, "newsletter": { "type": "newsletter" } }, "order": [ "hero", "trust-badges", "category-grid", "featured-collection", "newsletter" ] }
